@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.top1 {
+    background-color: #ba042d;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: Lato;
+}
+
+.mid1,
+img {
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.mid2 {
+    height: 50px;
+    width: 250px;
+    border: 3px solid #edceb5;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: lato;
+    margin-bottom: 35px;
+}
+
+.mid3 {
+    margin-top: 25px;
+    height: 25px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(236, 28, 28);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: lato;
+    margin-bottom: 15px;
+}
+
+.mid4 {
+    height: 25px;
+    width: 350px;
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: lato;
+    margin-bottom: 30px;
+}
+
+.mid3:hover {
+    box-shadow: 6px 6px 40px 10px red;
+    transform: translateX(20px)
+}
+
+.mid4:hover {
+    box-shadow: 6px 6px 40px 10px #c4a287;
+    transform: translateX(20px)
+}
+
+.bottum {
+    background-color: #ba042d;
+    padding: 40px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: dashed 1px;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+a:hover {
+    background-color: blue;
+}
